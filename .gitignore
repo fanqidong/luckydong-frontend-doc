@@ -1,0 +1,6 @@
+# 生成的静态资源
+.vuepress/dist/
+
+.DS_Store
+
+node_modules
