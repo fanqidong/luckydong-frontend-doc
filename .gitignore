@@ -1,5 +1,5 @@
 # 生成的静态资源
-.vuepress/dist/
+dist/
 
 .DS_Store
 

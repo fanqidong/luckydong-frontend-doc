@@ -4,12 +4,12 @@
 set -e
 
 # 生成静态文件
-echo '执行命令：vuepress build .'
-vuepress build .
+echo '执行命令：vuepress build docs'
+vuepress build docs
 
 # 进入生成的文件夹
-echo '执行命令：cd .vuepress/dist'
-cd .vuepress/dist
+echo '执行命令：cd dist'
+cd dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
